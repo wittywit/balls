@@ -29,6 +29,14 @@
 				canvas.addEventListener('mousemove', MouseMove, false);
 				window.addEventListener('mousedown', MouseDown, false);
 				window.addEventListener('resize', ResizeCanvas, false);
+				
+				//Touch events
+				
+				canvas.addEventListener('touchstart', MouseDown, false);
+                                canvas.addEventListener('touchmove', MouseMove, false);
+				
+				
+				
 				setInterval( TimeUpdate, 40 );
 				
 				ResizeCanvas();
