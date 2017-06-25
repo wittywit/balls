@@ -32,8 +32,8 @@
 				
 				//Touch events
 				
-				canvas.addEventListener('touchstart', MouseMove, false);
-                                window.addEventListener('touchmove', MouseDown, false);
+				window.addEventListener('touchstart', MouseMove, false);
+                                canvas.addEventListener('touchmove', MouseDown, false);
 				
 				
 				
