@@ -267,7 +267,7 @@
 
 
 
-			(function(window){
+			/*(function(window){
 
     // check for touch
     if (Modernizr.touch) {
@@ -289,4 +289,4 @@
 
         };
 
-    })(window);
+    })(window);*/
