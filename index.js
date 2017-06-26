@@ -276,14 +276,12 @@
             var fingerMove = false;
             el.addEventListener("touchmove",function(e){
             	canvas.addEventListener('touchmove', MouseMove, false);
-                e.stopPropagation();
                 fingerMove = true;
             });
 
             // always reset fingerMove to false on touch start
             el.addEventListener("touchstart",function(e){
             	window.addEventListener('touchstart', MouseDown, false);
-                e.stopPropagation();
                 fingerMove = false;
             });
 
